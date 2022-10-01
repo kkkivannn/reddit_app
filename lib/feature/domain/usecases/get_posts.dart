@@ -1,5 +1,8 @@
+// Package imports:
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
+
+// Project imports:
 import 'package:reddit_app/core/error/failure.dart';
 import 'package:reddit_app/core/usecase/usecase.dart';
 import 'package:reddit_app/feature/domain/entitis/post_entiti.dart';

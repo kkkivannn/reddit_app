@@ -1,4 +1,7 @@
+// Package imports:
 import 'package:dartz/dartz.dart';
+
+// Project imports:
 import 'package:reddit_app/core/error/failure.dart';
 import 'package:reddit_app/feature/domain/entitis/post_entiti.dart';
 

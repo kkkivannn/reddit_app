@@ -1,5 +1,8 @@
+// Package imports:
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
+
+// Project imports:
 import 'package:reddit_app/constants.dart';
 import 'package:reddit_app/core/error/exception.dart';
 import 'package:reddit_app/feature/data/datasource/reddit_remote_datasource.dart';
@@ -30,7 +33,6 @@ class RedditRemoteDatasourceImplement implements RedditRemoteDatasource {
   @override
   Future<PostModel> getPosts(String endpoint) async {
     final response = await _dio.get(endpoint);
-    print(response.statusCode);
     if (response.statusCode == 200) {
       return PostModel.fromJson(response.data);
     } else {

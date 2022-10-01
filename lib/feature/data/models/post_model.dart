@@ -1,3 +1,4 @@
+// Project imports:
 import 'package:reddit_app/feature/data/models/post_data_model.dart';
 import 'package:reddit_app/feature/domain/entitis/post_entiti.dart';
 
